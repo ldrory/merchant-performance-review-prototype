@@ -1,16 +1,3 @@
-# 📊 Merchant Performance Review Automation
-
-> Turn 3 merchant CSVs into **polished PowerPoint performance-review decks** 📑 and a
-> **per-merchant conversational agent** 💬 — automatically.
->
-> _Riskified Applied AI Engineer home assignment._
-
-<img src="docs/images/deck-preview.png" width="760" alt="Sample generated slide (ACME — Approval Rate)"/>
-
-_A real generated slide: charts, metric cards, and an AI-written analysis._ 👆
-
----
-
 ## 🎯 What is this?
 
 Customer Success teams build merchant decks by hand — pulling KPIs, making charts, writing
