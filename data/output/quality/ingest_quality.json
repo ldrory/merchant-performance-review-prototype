@@ -1,0 +1,37 @@
+{
+  "stage": "ingest",
+  "version": "20260617T125651Z",
+  "generated_at": "2026-06-17T12:56:51Z",
+  "overall_status": "WARN",
+  "layers": [
+    {
+      "layer": 1,
+      "name": "Input Validation",
+      "type": "gate",
+      "blocking": true,
+      "status": "PASS",
+      "summary": "0 error(s), 0 warning(s)",
+      "details": []
+    },
+    {
+      "layer": 2,
+      "name": "Metric Computation Integrity",
+      "type": "gate",
+      "blocking": true,
+      "status": "PASS",
+      "summary": "0 input issue(s), 0 uncomputable merchant(s)",
+      "details": []
+    },
+    {
+      "layer": 3,
+      "name": "Metric Quality",
+      "type": "note",
+      "blocking": false,
+      "status": "WARN",
+      "summary": "1 metric(s) with provided-vs-computed differences",
+      "details": [
+        "Accepted Chargeback Rate: shown as the provided rate; it differs from the order-derived value in 57 of 60 data points (provided rate used as the source of truth)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+Account Name,Date,KPI,Value
+ACME,2025-07,Submitted Cnt,4584
+ACME,2025-07,Submitted Sum,4061435.832
+ACME,2025-07,CHBG Pre Auth Approved Cnt,4457
+ACME,2025-07,CHBG Pre Auth Approved Sum,3839583.027
+ACME,2025-07,CHBG Post Auth Approved Cnt,4439
+ACME,2025-07,CHBG Post Auth Approved Sum,3898824.227
+ACME,2025-07,Pre Auth Approval Rate Cnt,0.972481
+ACME,2025-07,Pre Auth Approval Rate Sum,0.94537577
+ACME,2025-07,Post Auth Approval Rate Cnt,0.96842
+ACME,2025-07,Post Auth Approval Rate Sum,0.95996204
+ACME,2025-07,Accepted Chargebacks Rate Cnt,0.001342
+ACME,2025-07,Accepted Chargebacks Rate Sum,0.001033932
+ACME,2025-07,Accepted Chargeback Cnt,6
+ACME,2025-07,Accepted Chargeback Sum,5205.92
+ACME,2025-07,Effective Fraud Cnt,87
+ACME,2025-07,Effective Fraud Sum,134534.5274
+ACME,2025-08,Submitted Cnt,3779
+ACME,2025-08,Submitted Sum,3523815.898
+ACME,2025-08,CHBG Pre Auth Approved Cnt,3622
+ACME,2025-08,CHBG Pre Auth Approved Sum,3347101.189
+ACME,2025-08,CHBG Post Auth Approved Cnt,3685
+ACME,2025-08,CHBG Post Auth Approved Sum,3362603.453
+ACME,2025-08,Pre Auth Approval Rate Cnt,0.958515
+ACME,2025-08,Pre Auth Approval Rate Sum,0.949851322
+ACME,2025-08,Post Auth Approval Rate Cnt,0.975157
+ACME,2025-08,Post Auth Approval Rate Sum,0.954250605
+ACME,2025-08,Accepted Chargebacks Rate Cnt,0.001019
+ACME,2025-08,Accepted Chargebacks Rate Sum,0.001021195
+ACME,2025-08,Accepted Chargeback Cnt,3
+ACME,2025-08,Accepted Chargeback Sum,2290.45
+ACME,2025-08,Effective Fraud Cnt,94
+ACME,2025-08,Effective Fraud Sum,146248.5979
+ACME,2025-09,Submitted Cnt,4808
+ACME,2025-09,Submitted Sum,4238539.049
+ACME,2025-09,CHBG Pre Auth Approved Cnt,4650
+ACME,2025-09,CHBG Pre Auth Approved Sum,4096617.838
+ACME,2025-09,CHBG Post Auth Approved Cnt,4730
+ACME,2025-09,CHBG Post Auth Approved Sum,4127294.217
+ACME,2025-09,Pre Auth Approval Rate Cnt,0.967327
+ACME,2025-09,Pre Auth Approval Rate Sum,0.966516479
+ACME,2025-09,Post Auth Approval Rate Cnt,0.983945
+ACME,2025-09,Post Auth Approval Rate Sum,0.973753968
+ACME,2025-09,Accepted Chargebacks Rate Cnt,0.001104
+ACME,2025-09,Accepted Chargebacks Rate Sum,0.000786353
+ACME,2025-09,Accepted Chargeback Cnt,5
+ACME,2025-09,Accepted Chargeback Sum,4435.82
+ACME,2025-09,Effective Fraud Cnt,101
+ACME,2025-09,Effective Fraud Sum,111492.209
+ACME,2025-10,Submitted Cnt,3867
+ACME,2025-10,Submitted Sum,4189502.572
+ACME,2025-10,CHBG Pre Auth Approved Cnt,3698
+ACME,2025-10,CHBG Pre Auth Approved Sum,4023008.686
+ACME,2025-10,CHBG Post Auth Approved Cnt,3782
+ACME,2025-10,CHBG Post Auth Approved Sum,4092804.684
+ACME,2025-10,Pre Auth Approval Rate Cnt,0.956409
+ACME,2025-10,Pre Auth Approval Rate Sum,0.960259271
+ACME,2025-10,Post Auth Approval Rate Cnt,0.978034
+ACME,2025-10,Post Auth Approval Rate Sum,0.976919005
+ACME,2025-10,Accepted Chargebacks Rate Cnt,0.001338
+ACME,2025-10,Accepted Chargebacks Rate Sum,0.000967208
+ACME,2025-10,Accepted Chargeback Cnt,5
+ACME,2025-10,Accepted Chargeback Sum,4459.67
+ACME,2025-10,Effective Fraud Cnt,103
+ACME,2025-10,Effective Fraud Sum,143642.8442
+ACME,2025-11,Submitted Cnt,4834
+ACME,2025-11,Submitted Sum,4971501.876
+ACME,2025-11,CHBG Pre Auth Approved Cnt,4730
+ACME,2025-11,CHBG Pre Auth Approved Sum,4754785.091
+ACME,2025-11,CHBG Post Auth Approved Cnt,4764
+ACME,2025-11,CHBG Post Auth Approved Sum,4823581.33
+ACME,2025-11,Pre Auth Approval Rate Cnt,0.978618
+ACME,2025-11,Pre Auth Approval Rate Sum,0.956408186
+ACME,2025-11,Post Auth Approval Rate Cnt,0.98558
+ACME,2025-11,Post Auth Approval Rate Sum,0.970246306
+ACME,2025-11,Accepted Chargebacks Rate Cnt,0.001323
+ACME,2025-11,Accepted Chargebacks Rate Sum,0.000734267
+ACME,2025-11,Accepted Chargeback Cnt,6
+ACME,2025-11,Accepted Chargeback Sum,4010.22
+ACME,2025-11,Effective Fraud Cnt,98
+ACME,2025-11,Effective Fraud Sum,110585.4384
+ACME,2025-12,Submitted Cnt,5378
+ACME,2025-12,Submitted Sum,5229565.237
+ACME,2025-12,CHBG Pre Auth Approved Cnt,5107
+ACME,2025-12,CHBG Pre Auth Approved Sum,5066956.346
+ACME,2025-12,CHBG Post Auth Approved Cnt,5208
+ACME,2025-12,CHBG Post Auth Approved Sum,5082825.08
+ACME,2025-12,Pre Auth Approval Rate Cnt,0.949618
+ACME,2025-12,Pre Auth Approval Rate Sum,0.968905849
+ACME,2025-12,Post Auth Approval Rate Cnt,0.968506
+ACME,2025-12,Post Auth Approval Rate Sum,0.971940276
+ACME,2025-12,Accepted Chargebacks Rate Cnt,0.001119
+ACME,2025-12,Accepted Chargebacks Rate Sum,0.000888336
+ACME,2025-12,Accepted Chargeback Cnt,4
+ACME,2025-12,Accepted Chargeback Sum,2651.41
+ACME,2025-12,Effective Fraud Cnt,97
+ACME,2025-12,Effective Fraud Sum,170565.8211
+ACME,2026-01,Submitted Cnt,4595
+ACME,2026-01,Submitted Sum,4715349.673
+ACME,2026-01,CHBG Pre Auth Approved Cnt,4379
+ACME,2026-01,CHBG Pre Auth Approved Sum,4527137.882
+ACME,2026-01,CHBG Post Auth Approved Cnt,4435
+ACME,2026-01,CHBG Post Auth Approved Sum,4595833.675
+ACME,2026-01,Pre Auth Approval Rate Cnt,0.953047
+ACME,2026-01,Pre Auth Approval Rate Sum,0.960085295
+ACME,2026-01,Post Auth Approval Rate Cnt,0.965381
+ACME,2026-01,Post Auth Approval Rate Sum,0.974653842
+ACME,2026-01,Accepted Chargebacks Rate Cnt,0.000998
+ACME,2026-01,Accepted Chargebacks Rate Sum,0.000892741
+ACME,2026-01,Accepted Chargeback Cnt,4
+ACME,2026-01,Accepted Chargeback Sum,3587.43
+ACME,2026-01,Effective Fraud Cnt,133
+ACME,2026-01,Effective Fraud Sum,183540
+ACME,2026-02,Submitted Cnt,3438
+ACME,2026-02,Submitted Sum,3429223.106
+ACME,2026-02,CHBG Pre Auth Approved Cnt,3351
+ACME,2026-02,CHBG Pre Auth Approved Sum,3225972.559
+ACME,2026-02,CHBG Post Auth Approved Cnt,3379
+ACME,2026-02,CHBG Post Auth Approved Sum,3292505.317
+ACME,2026-02,Pre Auth Approval Rate Cnt,0.974713
+ACME,2026-02,Pre Auth Approval Rate Sum,0.940729856
+ACME,2026-02,Post Auth Approval Rate Cnt,0.983073
+ACME,2026-02,Post Auth Approval Rate Sum,0.960131556
+ACME,2026-02,Accepted Chargebacks Rate Cnt,0.000919
+ACME,2026-02,Accepted Chargebacks Rate Sum,0.00086234
+ACME,2026-02,Accepted Chargeback Cnt,4
+ACME,2026-02,Accepted Chargeback Sum,2721.29
+ACME,2026-02,Effective Fraud Cnt,94
+ACME,2026-02,Effective Fraud Sum,171003.68
+ACME,2026-03,Submitted Cnt,4896
+ACME,2026-03,Submitted Sum,4678239.097
+ACME,2026-03,CHBG Pre Auth Approved Cnt,4832
+ACME,2026-03,CHBG Pre Auth Approved Sum,4513372.903
+ACME,2026-03,CHBG Post Auth Approved Cnt,4795
+ACME,2026-03,CHBG Post Auth Approved Sum,4514356.405
+ACME,2026-03,Pre Auth Approval Rate Cnt,0.987015
+ACME,2026-03,Pre Auth Approval Rate Sum,0.964758921
+ACME,2026-03,Post Auth Approval Rate Cnt,0.979547
+ACME,2026-03,Post Auth Approval Rate Sum,0.96496915
+ACME,2026-03,Accepted Chargebacks Rate Cnt,0.001449
+ACME,2026-03,Accepted Chargebacks Rate Sum,0.000930455
+ACME,2026-03,Accepted Chargeback Cnt,7
+ACME,2026-03,Accepted Chargeback Sum,4756.25
+ACME,2026-03,Effective Fraud Cnt,96
+ACME,2026-03,Effective Fraud Sum,144295.7694
+ACME,2026-04,Submitted Cnt,4086
+ACME,2026-04,Submitted Sum,4168948.405
+ACME,2026-04,CHBG Pre Auth Approved Cnt,3960
+ACME,2026-04,CHBG Pre Auth Approved Sum,3943789.313
+ACME,2026-04,CHBG Post Auth Approved Cnt,4031
+ACME,2026-04,CHBG Post Auth Approved Sum,4023362.853
+ACME,2026-04,Pre Auth Approval Rate Cnt,0.96934
+ACME,2026-04,Pre Auth Approval Rate Sum,0.945991394
+ACME,2026-04,Post Auth Approval Rate Cnt,0.986636
+ACME,2026-04,Post Auth Approval Rate Sum,0.965078591
+ACME,2026-04,Accepted Chargebacks Rate Cnt,0.001032
+ACME,2026-04,Accepted Chargebacks Rate Sum,0.00118633
+ACME,2026-04,Accepted Chargeback Cnt,4
+ACME,2026-04,Accepted Chargeback Sum,3011.43
+ACME,2026-04,Effective Fraud Cnt,87
+ACME,2026-04,Effective Fraud Sum,108298.1463
+ACME,2026-05,Submitted Cnt,3884
+ACME,2026-05,Submitted Sum,4002800.102
+ACME,2026-05,CHBG Pre Auth Approved Cnt,3810
+ACME,2026-05,CHBG Pre Auth Approved Sum,3831699.783
+ACME,2026-05,CHBG Post Auth Approved Cnt,3820
+ACME,2026-05,CHBG Post Auth Approved Sum,3865662.269
+ACME,2026-05,Pre Auth Approval Rate Cnt,0.981131
+ACME,2026-05,Pre Auth Approval Rate Sum,0.957254843
+ACME,2026-05,Post Auth Approval Rate Cnt,0.983543
+ACME,2026-05,Post Auth Approval Rate Sum,0.965739525
+ACME,2026-05,Accepted Chargebacks Rate Cnt,0.000938
+ACME,2026-05,Accepted Chargebacks Rate Sum,0.000893769
+ACME,2026-05,Accepted Chargeback Cnt,3
+ACME,2026-05,Accepted Chargeback Sum,2696.51
+ACME,2026-05,Effective Fraud Cnt,111
+ACME,2026-05,Effective Fraud Sum,172975.4864
+ACME,2026-06,Submitted Cnt,4876
+ACME,2026-06,Submitted Sum,4304315.551
+ACME,2026-06,CHBG Pre Auth Approved Cnt,4775
+ACME,2026-06,CHBG Pre Auth Approved Sum,4230067.235
+ACME,2026-06,CHBG Post Auth Approved Cnt,4785
+ACME,2026-06,CHBG Post Auth Approved Sum,4189290.763
+ACME,2026-06,Pre Auth Approval Rate Cnt,0.979381
+ACME,2026-06,Pre Auth Approval Rate Sum,0.982750262
+ACME,2026-06,Post Auth Approval Rate Cnt,0.981456
+ACME,2026-06,Post Auth Approval Rate Sum,0.973276869
+ACME,2026-06,Accepted Chargebacks Rate Cnt,0.001222
+ACME,2026-06,Accepted Chargebacks Rate Sum,0.000839242
+ACME,2026-06,Accepted Chargeback Cnt,5
+ACME,2026-06,Accepted Chargeback Sum,3961.44
+ACME,2026-06,Effective Fraud Cnt,88
+ACME,2026-06,Effective Fraud Sum,135433.5675
+Cyberdyne Systems,2025-07,Submitted Cnt,2780
+Cyberdyne Systems,2025-07,Submitted Sum,2867207.561
+Cyberdyne Systems,2025-07,CHBG Pre Auth Approved Cnt,2687
+Cyberdyne Systems,2025-07,CHBG Pre Auth Approved Sum,2752830.617
+Cyberdyne Systems,2025-07,CHBG Post Auth Approved Cnt,2737
+Cyberdyne Systems,2025-07,CHBG Post Auth Approved Sum,2795725.843
+Cyberdyne Systems,2025-07,Pre Auth Approval Rate Cnt,0.966882
+Cyberdyne Systems,2025-07,Pre Auth Approval Rate Sum,0.960108593
+Cyberdyne Systems,2025-07,Post Auth Approval Rate Cnt,0.984704
+Cyberdyne Systems,2025-07,Post Auth Approval Rate Sum,0.975069221
+Cyberdyne Systems,2025-07,Accepted Chargebacks Rate Cnt,0.002114
+Cyberdyne Systems,2025-07,Accepted Chargebacks Rate Sum,0.00134081
+Cyberdyne Systems,2025-07,Accepted Chargeback Cnt,5
+Cyberdyne Systems,2025-07,Accepted Chargeback Sum,3762.45
+Cyberdyne Systems,2025-07,Effective Fraud Cnt,100
+Cyberdyne Systems,2025-07,Effective Fraud Sum,92342.0348
+Cyberdyne Systems,2025-08,Submitted Cnt,2128
+Cyberdyne Systems,2025-08,Submitted Sum,2086866.633
+Cyberdyne Systems,2025-08,CHBG Pre Auth Approved Cnt,2101
+Cyberdyne Systems,2025-08,CHBG Pre Auth Approved Sum,1995195.59
+Cyberdyne Systems,2025-08,CHBG Post Auth Approved Cnt,2111
+Cyberdyne Systems,2025-08,CHBG Post Auth Approved Sum,2007499.614
+Cyberdyne Systems,2025-08,Pre Auth Approval Rate Cnt,0.987338
+Cyberdyne Systems,2025-08,Pre Auth Approval Rate Sum,0.9560724
+Cyberdyne Systems,2025-08,Post Auth Approval Rate Cnt,0.992351
+Cyberdyne Systems,2025-08,Post Auth Approval Rate Sum,0.961968332
+Cyberdyne Systems,2025-08,Accepted Chargebacks Rate Cnt,0.002106
+Cyberdyne Systems,2025-08,Accepted Chargebacks Rate Sum,0.000957526
+Cyberdyne Systems,2025-08,Accepted Chargeback Cnt,5
+Cyberdyne Systems,2025-08,Accepted Chargeback Sum,3235.02
+Cyberdyne Systems,2025-08,Effective Fraud Cnt,95
+Cyberdyne Systems,2025-08,Effective Fraud Sum,120084.9411
+Cyberdyne Systems,2025-09,Submitted Cnt,2604
+Cyberdyne Systems,2025-09,Submitted Sum,2319115.451
+Cyberdyne Systems,2025-09,CHBG Pre Auth Approved Cnt,2573
+Cyberdyne Systems,2025-09,CHBG Pre Auth Approved Sum,2223209.176
+Cyberdyne Systems,2025-09,CHBG Post Auth Approved Cnt,2601
+Cyberdyne Systems,2025-09,CHBG Post Auth Approved Sum,2260402.883
+Cyberdyne Systems,2025-09,Pre Auth Approval Rate Cnt,0.988439
+Cyberdyne Systems,2025-09,Pre Auth Approval Rate Sum,0.958645321
+Cyberdyne Systems,2025-09,Post Auth Approval Rate Cnt,0.999
+Cyberdyne Systems,2025-09,Post Auth Approval Rate Sum,0.974683206
+Cyberdyne Systems,2025-09,Accepted Chargebacks Rate Cnt,0.001744
+Cyberdyne Systems,2025-09,Accepted Chargebacks Rate Sum,0.001371685
+Cyberdyne Systems,2025-09,Accepted Chargeback Cnt,4
+Cyberdyne Systems,2025-09,Accepted Chargeback Sum,2864.36
+Cyberdyne Systems,2025-09,Effective Fraud Cnt,94
+Cyberdyne Systems,2025-09,Effective Fraud Sum,113242.6705
+Cyberdyne Systems,2025-10,Submitted Cnt,2989
+Cyberdyne Systems,2025-10,Submitted Sum,2721310.432
+Cyberdyne Systems,2025-10,CHBG Pre Auth Approved Cnt,2939
+Cyberdyne Systems,2025-10,CHBG Pre Auth Approved Sum,2608177.717
+Cyberdyne Systems,2025-10,CHBG Post Auth Approved Cnt,2948
+Cyberdyne Systems,2025-10,CHBG Post Auth Approved Sum,2618695.824
+Cyberdyne Systems,2025-10,Pre Auth Approval Rate Cnt,0.983337
+Cyberdyne Systems,2025-10,Pre Auth Approval Rate Sum,0.958427119
+Cyberdyne Systems,2025-10,Post Auth Approval Rate Cnt,0.986411
+Cyberdyne Systems,2025-10,Post Auth Approval Rate Sum,0.962292208
+Cyberdyne Systems,2025-10,Accepted Chargebacks Rate Cnt,0.001547
+Cyberdyne Systems,2025-10,Accepted Chargebacks Rate Sum,0.001411858
+Cyberdyne Systems,2025-10,Accepted Chargeback Cnt,4
+Cyberdyne Systems,2025-10,Accepted Chargeback Sum,2723.2
+Cyberdyne Systems,2025-10,Effective Fraud Cnt,130
+Cyberdyne Systems,2025-10,Effective Fraud Sum,171045.6
+Cyberdyne Systems,2025-11,Submitted Cnt,2514
+Cyberdyne Systems,2025-11,Submitted Sum,2439054.53
+Cyberdyne Systems,2025-11,CHBG Pre Auth Approved Cnt,2492
+Cyberdyne Systems,2025-11,CHBG Pre Auth Approved Sum,2391192.658
+Cyberdyne Systems,2025-11,CHBG Post Auth Approved Cnt,2484
+Cyberdyne Systems,2025-11,CHBG Post Auth Approved Sum,2435964.992
+Cyberdyne Systems,2025-11,Pre Auth Approval Rate Cnt,0.99161
+Cyberdyne Systems,2025-11,Pre Auth Approval Rate Sum,0.980376875
+Cyberdyne Systems,2025-11,Post Auth Approval Rate Cnt,0.988171
+Cyberdyne Systems,2025-11,Post Auth Approval Rate Sum,0.998733305
+Cyberdyne Systems,2025-11,Accepted Chargebacks Rate Cnt,0.001228
+Cyberdyne Systems,2025-11,Accepted Chargebacks Rate Sum,0.001059703
+Cyberdyne Systems,2025-11,Accepted Chargeback Cnt,3
+Cyberdyne Systems,2025-11,Accepted Chargeback Sum,2011.5
+Cyberdyne Systems,2025-11,Effective Fraud Cnt,107
+Cyberdyne Systems,2025-11,Effective Fraud Sum,129316.231
+Cyberdyne Systems,2025-12,Submitted Cnt,2958
+Cyberdyne Systems,2025-12,Submitted Sum,2808067.177
+Cyberdyne Systems,2025-12,CHBG Pre Auth Approved Cnt,2860
+Cyberdyne Systems,2025-12,CHBG Pre Auth Approved Sum,2739752.319
+Cyberdyne Systems,2025-12,CHBG Post Auth Approved Cnt,2838
+Cyberdyne Systems,2025-12,CHBG Post Auth Approved Sum,2765290.345
+Cyberdyne Systems,2025-12,Pre Auth Approval Rate Cnt,0.966969
+Cyberdyne Systems,2025-12,Pre Auth Approval Rate Sum,0.975671929
+Cyberdyne Systems,2025-12,Post Auth Approval Rate Cnt,0.959445
+Cyberdyne Systems,2025-12,Post Auth Approval Rate Sum,0.98476645
+Cyberdyne Systems,2025-12,Accepted Chargebacks Rate Cnt,0.001852
+Cyberdyne Systems,2025-12,Accepted Chargebacks Rate Sum,0.001365769
+Cyberdyne Systems,2025-12,Accepted Chargeback Cnt,5
+Cyberdyne Systems,2025-12,Accepted Chargeback Sum,4421.1
+Cyberdyne Systems,2025-12,Effective Fraud Cnt,97
+Cyberdyne Systems,2025-12,Effective Fraud Sum,90127.1637
+Cyberdyne Systems,2026-01,Submitted Cnt,2924
+Cyberdyne Systems,2026-01,Submitted Sum,2727547.792
+Cyberdyne Systems,2026-01,CHBG Pre Auth Approved Cnt,2870
+Cyberdyne Systems,2026-01,CHBG Pre Auth Approved Sum,2669506.099
+Cyberdyne Systems,2026-01,CHBG Post Auth Approved Cnt,2863
+Cyberdyne Systems,2026-01,CHBG Post Auth Approved Sum,2717680.544
+Cyberdyne Systems,2026-01,Pre Auth Approval Rate Cnt,0.981789
+Cyberdyne Systems,2026-01,Pre Auth Approval Rate Sum,0.978720192
+Cyberdyne Systems,2026-01,Post Auth Approval Rate Cnt,0.979305
+Cyberdyne Systems,2026-01,Post Auth Approval Rate Sum,0.996382374
+Cyberdyne Systems,2026-01,Accepted Chargebacks Rate Cnt,0.001288
+Cyberdyne Systems,2026-01,Accepted Chargebacks Rate Sum,0.000984649
+Cyberdyne Systems,2026-01,Accepted Chargeback Cnt,3
+Cyberdyne Systems,2026-01,Accepted Chargeback Sum,1871.05
+Cyberdyne Systems,2026-01,Effective Fraud Cnt,94
+Cyberdyne Systems,2026-01,Effective Fraud Sum,102001.1666
+Cyberdyne Systems,2026-02,Submitted Cnt,2807
+Cyberdyne Systems,2026-02,Submitted Sum,2894528.959
+Cyberdyne Systems,2026-02,CHBG Pre Auth Approved Cnt,2718
+Cyberdyne Systems,2026-02,CHBG Pre Auth Approved Sum,2807375.317
+Cyberdyne Systems,2026-02,CHBG Post Auth Approved Cnt,2771
+Cyberdyne Systems,2026-02,CHBG Post Auth Approved Sum,2823324.803
+Cyberdyne Systems,2026-02,Pre Auth Approval Rate Cnt,0.968312
+Cyberdyne Systems,2026-02,Pre Auth Approval Rate Sum,0.969890216
+Cyberdyne Systems,2026-02,Post Auth Approval Rate Cnt,0.987373
+Cyberdyne Systems,2026-02,Post Auth Approval Rate Sum,0.975400434
+Cyberdyne Systems,2026-02,Accepted Chargebacks Rate Cnt,0.001416
+Cyberdyne Systems,2026-02,Accepted Chargebacks Rate Sum,0.001271192
+Cyberdyne Systems,2026-02,Accepted Chargeback Cnt,3
+Cyberdyne Systems,2026-02,Accepted Chargeback Sum,2579.94
+Cyberdyne Systems,2026-02,Effective Fraud Cnt,104
+Cyberdyne Systems,2026-02,Effective Fraud Sum,93919.0936
+Cyberdyne Systems,2026-03,Submitted Cnt,2707
+Cyberdyne Systems,2026-03,Submitted Sum,2510675.336
+Cyberdyne Systems,2026-03,CHBG Pre Auth Approved Cnt,2605
+Cyberdyne Systems,2026-03,CHBG Pre Auth Approved Sum,2445038.839
+Cyberdyne Systems,2026-03,CHBG Post Auth Approved Cnt,2622
+Cyberdyne Systems,2026-03,CHBG Post Auth Approved Sum,2471682.303
+Cyberdyne Systems,2026-03,Pre Auth Approval Rate Cnt,0.962449
+Cyberdyne Systems,2026-03,Pre Auth Approval Rate Sum,0.973857035
+Cyberdyne Systems,2026-03,Post Auth Approval Rate Cnt,0.968716
+Cyberdyne Systems,2026-03,Post Auth Approval Rate Sum,0.984469106
+Cyberdyne Systems,2026-03,Accepted Chargebacks Rate Cnt,0.001786
+Cyberdyne Systems,2026-03,Accepted Chargebacks Rate Sum,0.001097182
+Cyberdyne Systems,2026-03,Accepted Chargeback Cnt,4
+Cyberdyne Systems,2026-03,Accepted Chargeback Sum,3245.62
+Cyberdyne Systems,2026-03,Effective Fraud Cnt,131
+Cyberdyne Systems,2026-03,Effective Fraud Sum,169557.6
+Cyberdyne Systems,2026-04,Submitted Cnt,2480
+Cyberdyne Systems,2026-04,Submitted Sum,2182641.443
+Cyberdyne Systems,2026-04,CHBG Pre Auth Approved Cnt,2450
+Cyberdyne Systems,2026-04,CHBG Pre Auth Approved Sum,2133981.307
+Cyberdyne Systems,2026-04,CHBG Post Auth Approved Cnt,2423
+Cyberdyne Systems,2026-04,CHBG Post Auth Approved Sum,2168933.457
+Cyberdyne Systems,2026-04,Pre Auth Approval Rate Cnt,0.988229
+Cyberdyne Systems,2026-04,Pre Auth Approval Rate Sum,0.97770585
+Cyberdyne Systems,2026-04,Post Auth Approval Rate Cnt,0.97709
+Cyberdyne Systems,2026-04,Post Auth Approval Rate Sum,0.993719543
+Cyberdyne Systems,2026-04,Accepted Chargebacks Rate Cnt,0.001695
+Cyberdyne Systems,2026-04,Accepted Chargebacks Rate Sum,0.001536969
+Cyberdyne Systems,2026-04,Accepted Chargeback Cnt,4
+Cyberdyne Systems,2026-04,Accepted Chargeback Sum,3057.69
+Cyberdyne Systems,2026-04,Effective Fraud Cnt,79
+Cyberdyne Systems,2026-04,Effective Fraud Sum,95496.7745
+Cyberdyne Systems,2026-05,Submitted Cnt,2644
+Cyberdyne Systems,2026-05,Submitted Sum,2839234.14
+Cyberdyne Systems,2026-05,CHBG Pre Auth Approved Cnt,2606
+Cyberdyne Systems,2026-05,CHBG Pre Auth Approved Sum,2772379.151
+Cyberdyne Systems,2026-05,CHBG Post Auth Approved Cnt,2611
+Cyberdyne Systems,2026-05,CHBG Post Auth Approved Sum,2814739.894
+Cyberdyne Systems,2026-05,Pre Auth Approval Rate Cnt,0.985679
+Cyberdyne Systems,2026-05,Pre Auth Approval Rate Sum,0.976453161
+Cyberdyne Systems,2026-05,Post Auth Approval Rate Cnt,0.987813
+Cyberdyne Systems,2026-05,Post Auth Approval Rate Sum,0.991372939
+Cyberdyne Systems,2026-05,Accepted Chargebacks Rate Cnt,0.00416
+Cyberdyne Systems,2026-05,Accepted Chargebacks Rate Sum,0.003176913
+Cyberdyne Systems,2026-05,Accepted Chargeback Cnt,11
+Cyberdyne Systems,2026-05,Accepted Chargeback Sum,9020
+Cyberdyne Systems,2026-05,Effective Fraud Cnt,77
+Cyberdyne Systems,2026-05,Effective Fraud Sum,124793.8579
+Cyberdyne Systems,2026-06,Submitted Cnt,2961
+Cyberdyne Systems,2026-06,Submitted Sum,2836578.668
+Cyberdyne Systems,2026-06,CHBG Pre Auth Approved Cnt,2903
+Cyberdyne Systems,2026-06,CHBG Pre Auth Approved Sum,2711737.879
+Cyberdyne Systems,2026-06,CHBG Post Auth Approved Cnt,2902
+Cyberdyne Systems,2026-06,CHBG Post Auth Approved Sum,2688894.026
+Cyberdyne Systems,2026-06,Pre Auth Approval Rate Cnt,0.980537
+Cyberdyne Systems,2026-06,Pre Auth Approval Rate Sum,0.955988956
+Cyberdyne Systems,2026-06,Post Auth Approval Rate Cnt,0.980382
+Cyberdyne Systems,2026-06,Post Auth Approval Rate Sum,0.947935644
+Cyberdyne Systems,2026-06,Accepted Chargebacks Rate Cnt,0.002076
+Cyberdyne Systems,2026-06,Accepted Chargebacks Rate Sum,0.001560017
+Cyberdyne Systems,2026-06,Accepted Chargeback Cnt,6
+Cyberdyne Systems,2026-06,Accepted Chargeback Sum,5285.74
+Cyberdyne Systems,2026-06,Effective Fraud Cnt,103
+Cyberdyne Systems,2026-06,Effective Fraud Sum,129341.0106
+Vandelay Industries,2025-07,Submitted Cnt,5735
+Vandelay Industries,2025-07,Submitted Sum,6486824.887
+Vandelay Industries,2025-07,CHBG Pre Auth Approved Cnt,5523
+Vandelay Industries,2025-07,CHBG Pre Auth Approved Sum,6117126.758
+Vandelay Industries,2025-07,CHBG Post Auth Approved Cnt,5648
+Vandelay Industries,2025-07,CHBG Post Auth Approved Sum,6202470.442
+Vandelay Industries,2025-07,Pre Auth Approval Rate Cnt,0.963158
+Vandelay Industries,2025-07,Pre Auth Approval Rate Sum,0.943007845
+Vandelay Industries,2025-07,Post Auth Approval Rate Cnt,0.984982
+Vandelay Industries,2025-07,Post Auth Approval Rate Sum,0.95616431
+Vandelay Industries,2025-07,Accepted Chargebacks Rate Cnt,0.00095
+Vandelay Industries,2025-07,Accepted Chargebacks Rate Sum,0.00054889
+Vandelay Industries,2025-07,Accepted Chargeback Cnt,5
+Vandelay Industries,2025-07,Accepted Chargeback Sum,4194.18
+Vandelay Industries,2025-07,Effective Fraud Cnt,105
+Vandelay Industries,2025-07,Effective Fraud Sum,105728.4604
+Vandelay Industries,2025-08,Submitted Cnt,6900
+Vandelay Industries,2025-08,Submitted Sum,7222063.763
+Vandelay Industries,2025-08,CHBG Pre Auth Approved Cnt,6571
+Vandelay Industries,2025-08,CHBG Pre Auth Approved Sum,7010838.706
+Vandelay Industries,2025-08,CHBG Post Auth Approved Cnt,6650
+Vandelay Industries,2025-08,CHBG Post Auth Approved Sum,7009619.08
+Vandelay Industries,2025-08,Pre Auth Approval Rate Cnt,0.952454
+Vandelay Industries,2025-08,Pre Auth Approval Rate Sum,0.970752812
+Vandelay Industries,2025-08,Post Auth Approval Rate Cnt,0.963856
+Vandelay Industries,2025-08,Post Auth Approval Rate Sum,0.970583937
+Vandelay Industries,2025-08,Accepted Chargebacks Rate Cnt,0.000972
+Vandelay Industries,2025-08,Accepted Chargebacks Rate Sum,0.00079368
+Vandelay Industries,2025-08,Accepted Chargeback Cnt,5
+Vandelay Industries,2025-08,Accepted Chargeback Sum,3643.71
+Vandelay Industries,2025-08,Effective Fraud Cnt,73
+Vandelay Industries,2025-08,Effective Fraud Sum,106911.1786
+Vandelay Industries,2025-09,Submitted Cnt,5131
+Vandelay Industries,2025-09,Submitted Sum,5772597.384
+Vandelay Industries,2025-09,CHBG Pre Auth Approved Cnt,5030
+Vandelay Industries,2025-09,CHBG Pre Auth Approved Sum,5651163.906
+Vandelay Industries,2025-09,CHBG Post Auth Approved Cnt,5054
+Vandelay Industries,2025-09,CHBG Post Auth Approved Sum,5614323.253
+Vandelay Industries,2025-09,Pre Auth Approval Rate Cnt,0.980417
+Vandelay Industries,2025-09,Pre Auth Approval Rate Sum,0.978963806
+Vandelay Industries,2025-09,Post Auth Approval Rate Cnt,0.985066
+Vandelay Industries,2025-09,Post Auth Approval Rate Sum,0.972581817
+Vandelay Industries,2025-09,Accepted Chargebacks Rate Cnt,0.00084
+Vandelay Industries,2025-09,Accepted Chargebacks Rate Sum,0.000499633
+Vandelay Industries,2025-09,Accepted Chargeback Cnt,4
+Vandelay Industries,2025-09,Accepted Chargeback Sum,3315.47
+Vandelay Industries,2025-09,Effective Fraud Cnt,108
+Vandelay Industries,2025-09,Effective Fraud Sum,95940.0588
+Vandelay Industries,2025-10,Submitted Cnt,5780
+Vandelay Industries,2025-10,Submitted Sum,5286059.838
+Vandelay Industries,2025-10,CHBG Pre Auth Approved Cnt,5668
+Vandelay Industries,2025-10,CHBG Pre Auth Approved Sum,5068780.482
+Vandelay Industries,2025-10,CHBG Post Auth Approved Cnt,5673
+Vandelay Industries,2025-10,CHBG Post Auth Approved Sum,5131072.336
+Vandelay Industries,2025-10,Pre Auth Approval Rate Cnt,0.980726
+Vandelay Industries,2025-10,Pre Auth Approval Rate Sum,0.958895782
+Vandelay Industries,2025-10,Post Auth Approval Rate Cnt,0.981615
+Vandelay Industries,2025-10,Post Auth Approval Rate Sum,0.970679957
+Vandelay Industries,2025-10,Accepted Chargebacks Rate Cnt,0.000738
+Vandelay Industries,2025-10,Accepted Chargebacks Rate Sum,0.000669915
+Vandelay Industries,2025-10,Accepted Chargeback Cnt,4
+Vandelay Industries,2025-10,Accepted Chargeback Sum,2937.37
+Vandelay Industries,2025-10,Effective Fraud Cnt,83
+Vandelay Industries,2025-10,Effective Fraud Sum,132131.9199
+Vandelay Industries,2025-11,Submitted Cnt,5693
+Vandelay Industries,2025-11,Submitted Sum,5405208.607
+Vandelay Industries,2025-11,CHBG Pre Auth Approved Cnt,5465
+Vandelay Industries,2025-11,CHBG Pre Auth Approved Sum,5156904.566
+Vandelay Industries,2025-11,CHBG Post Auth Approved Cnt,5551
+Vandelay Industries,2025-11,CHBG Post Auth Approved Sum,5241121.116
+Vandelay Industries,2025-11,Pre Auth Approval Rate Cnt,0.960094
+Vandelay Industries,2025-11,Pre Auth Approval Rate Sum,0.95406208
+Vandelay Industries,2025-11,Post Auth Approval Rate Cnt,0.975148
+Vandelay Industries,2025-11,Post Auth Approval Rate Sum,0.969642709
+Vandelay Industries,2025-11,Accepted Chargebacks Rate Cnt,0.00078
+Vandelay Industries,2025-11,Accepted Chargebacks Rate Sum,0.00060318
+Vandelay Industries,2025-11,Accepted Chargeback Cnt,4
+Vandelay Industries,2025-11,Accepted Chargeback Sum,3450.41
+Vandelay Industries,2025-11,Effective Fraud Cnt,123
+Vandelay Industries,2025-11,Effective Fraud Sum,150060
+Vandelay Industries,2025-12,Submitted Cnt,5824
+Vandelay Industries,2025-12,Submitted Sum,5400139.921
+Vandelay Industries,2025-12,CHBG Pre Auth Approved Cnt,5545
+Vandelay Industries,2025-12,CHBG Pre Auth Approved Sum,5203816.382
+Vandelay Industries,2025-12,CHBG Post Auth Approved Cnt,5625
+Vandelay Industries,2025-12,CHBG Post Auth Approved Sum,5175074.466
+Vandelay Industries,2025-12,Pre Auth Approval Rate Cnt,0.952112
+Vandelay Industries,2025-12,Pre Auth Approval Rate Sum,0.963644731
+Vandelay Industries,2025-12,Post Auth Approval Rate Cnt,0.965956
+Vandelay Industries,2025-12,Post Auth Approval Rate Sum,0.958322292
+Vandelay Industries,2025-12,Accepted Chargebacks Rate Cnt,0.001
+Vandelay Industries,2025-12,Accepted Chargebacks Rate Sum,0.000569887
+Vandelay Industries,2025-12,Accepted Chargeback Cnt,5
+Vandelay Industries,2025-12,Accepted Chargeback Sum,3197.11
+Vandelay Industries,2025-12,Effective Fraud Cnt,76
+Vandelay Industries,2025-12,Effective Fraud Sum,121030.736
+Vandelay Industries,2026-01,Submitted Cnt,5422
+Vandelay Industries,2026-01,Submitted Sum,6068556.254
+Vandelay Industries,2026-01,CHBG Pre Auth Approved Cnt,5329
+Vandelay Industries,2026-01,CHBG Pre Auth Approved Sum,5663794.002
+Vandelay Industries,2026-01,CHBG Post Auth Approved Cnt,5338
+Vandelay Industries,2026-01,CHBG Post Auth Approved Sum,5768782.131
+Vandelay Industries,2026-01,Pre Auth Approval Rate Cnt,0.982893
+Vandelay Industries,2026-01,Pre Auth Approval Rate Sum,0.933301722
+Vandelay Industries,2026-01,Post Auth Approval Rate Cnt,0.984509
+Vandelay Industries,2026-01,Post Auth Approval Rate Sum,0.950602069
+Vandelay Industries,2026-01,Accepted Chargebacks Rate Cnt,0.000801
+Vandelay Industries,2026-01,Accepted Chargebacks Rate Sum,0.000748943
+Vandelay Industries,2026-01,Accepted Chargeback Cnt,4
+Vandelay Industries,2026-01,Accepted Chargeback Sum,2550.8
+Vandelay Industries,2026-01,Effective Fraud Cnt,78
+Vandelay Industries,2026-01,Effective Fraud Sum,135033.6551
+Vandelay Industries,2026-02,Submitted Cnt,5898
+Vandelay Industries,2026-02,Submitted Sum,5976501.597
+Vandelay Industries,2026-02,CHBG Pre Auth Approved Cnt,5742
+Vandelay Industries,2026-02,CHBG Pre Auth Approved Sum,5767722.459
+Vandelay Industries,2026-02,CHBG Post Auth Approved Cnt,5793
+Vandelay Industries,2026-02,CHBG Post Auth Approved Sum,5808463.816
+Vandelay Industries,2026-02,Pre Auth Approval Rate Cnt,0.973606
+Vandelay Industries,2026-02,Pre Auth Approval Rate Sum,0.965066664
+Vandelay Industries,2026-02,Post Auth Approval Rate Cnt,0.982317
+Vandelay Industries,2026-02,Post Auth Approval Rate Sum,0.971883588
+Vandelay Industries,2026-02,Accepted Chargebacks Rate Cnt,0.000774
+Vandelay Industries,2026-02,Accepted Chargebacks Rate Sum,0.000515548
+Vandelay Industries,2026-02,Accepted Chargeback Cnt,4
+Vandelay Industries,2026-02,Accepted Chargeback Sum,2800.57
+Vandelay Industries,2026-02,Effective Fraud Cnt,89
+Vandelay Industries,2026-02,Effective Fraud Sum,113483.1347
+Vandelay Industries,2026-03,Submitted Cnt,6118
+Vandelay Industries,2026-03,Submitted Sum,6500005.725
+Vandelay Industries,2026-03,CHBG Pre Auth Approved Cnt,6069
+Vandelay Industries,2026-03,CHBG Pre Auth Approved Sum,6211588.602
+Vandelay Industries,2026-03,CHBG Post Auth Approved Cnt,6045
+Vandelay Industries,2026-03,CHBG Post Auth Approved Sum,6184094.345
+Vandelay Industries,2026-03,Pre Auth Approval Rate Cnt,0.992133
+Vandelay Industries,2026-03,Pre Auth Approval Rate Sum,0.955628174
+Vandelay Industries,2026-03,Post Auth Approval Rate Cnt,0.988147
+Vandelay Industries,2026-03,Post Auth Approval Rate Sum,0.951398292
+Vandelay Industries,2026-03,Accepted Chargebacks Rate Cnt,0.000894
+Vandelay Industries,2026-03,Accepted Chargebacks Rate Sum,0.000614435
+Vandelay Industries,2026-03,Accepted Chargeback Cnt,5
+Vandelay Industries,2026-03,Accepted Chargeback Sum,4120.81
+Vandelay Industries,2026-03,Effective Fraud Cnt,82
+Vandelay Industries,2026-03,Effective Fraud Sum,100749.6098
+Vandelay Industries,2026-04,Submitted Cnt,5728
+Vandelay Industries,2026-04,Submitted Sum,5733021.31
+Vandelay Industries,2026-04,CHBG Pre Auth Approved Cnt,5458
+Vandelay Industries,2026-04,CHBG Pre Auth Approved Sum,5498818.125
+Vandelay Industries,2026-04,CHBG Post Auth Approved Cnt,5542
+Vandelay Industries,2026-04,CHBG Post Auth Approved Sum,5479460.716
+Vandelay Industries,2026-04,Pre Auth Approval Rate Cnt,0.952981
+Vandelay Industries,2026-04,Pre Auth Approval Rate Sum,0.959148384
+Vandelay Industries,2026-04,Post Auth Approval Rate Cnt,0.967529
+Vandelay Industries,2026-04,Post Auth Approval Rate Sum,0.955771908
+Vandelay Industries,2026-04,Accepted Chargebacks Rate Cnt,0.001191
+Vandelay Industries,2026-04,Accepted Chargebacks Rate Sum,0.000656797
+Vandelay Industries,2026-04,Accepted Chargeback Cnt,6
+Vandelay Industries,2026-04,Accepted Chargeback Sum,4944.41
+Vandelay Industries,2026-04,Effective Fraud Cnt,93
+Vandelay Industries,2026-04,Effective Fraud Sum,94327.0632
+Vandelay Industries,2026-05,Submitted Cnt,4485
+Vandelay Industries,2026-05,Submitted Sum,4943634.095
+Vandelay Industries,2026-05,CHBG Pre Auth Approved Cnt,4372
+Vandelay Industries,2026-05,CHBG Pre Auth Approved Sum,4822706.655
+Vandelay Industries,2026-05,CHBG Post Auth Approved Cnt,4429
+Vandelay Industries,2026-05,CHBG Post Auth Approved Sum,4821614.043
+Vandelay Industries,2026-05,Pre Auth Approval Rate Cnt,0.974904
+Vandelay Industries,2026-05,Pre Auth Approval Rate Sum,0.975538756
+Vandelay Industries,2026-05,Post Auth Approval Rate Cnt,0.987704
+Vandelay Industries,2026-05,Post Auth Approval Rate Sum,0.975317742
+Vandelay Industries,2026-05,Accepted Chargebacks Rate Cnt,0.001149
+Vandelay Industries,2026-05,Accepted Chargebacks Rate Sum,0.000543855
+Vandelay Industries,2026-05,Accepted Chargeback Cnt,7
+Vandelay Industries,2026-05,Accepted Chargeback Sum,5011.05
+Vandelay Industries,2026-05,Effective Fraud Cnt,81
+Vandelay Industries,2026-05,Effective Fraud Sum,110447.8535
+Vandelay Industries,2026-06,Submitted Cnt,5185
+Vandelay Industries,2026-06,Submitted Sum,5135082.032
+Vandelay Industries,2026-06,CHBG Pre Auth Approved Cnt,5121
+Vandelay Industries,2026-06,CHBG Pre Auth Approved Sum,4872378.809
+Vandelay Industries,2026-06,CHBG Post Auth Approved Cnt,5123
+Vandelay Industries,2026-06,CHBG Post Auth Approved Sum,4910251.277
+Vandelay Industries,2026-06,Pre Auth Approval Rate Cnt,0.987737
+Vandelay Industries,2026-06,Pre Auth Approval Rate Sum,0.948841475
+Vandelay Industries,2026-06,Post Auth Approval Rate Cnt,0.988181
+Vandelay Industries,2026-06,Post Auth Approval Rate Sum,0.956216716
+Vandelay Industries,2026-06,Accepted Chargebacks Rate Cnt,0.001112
+Vandelay Industries,2026-06,Accepted Chargebacks Rate Sum,0.000661643
+Vandelay Industries,2026-06,Accepted Chargeback Cnt,5
+Vandelay Industries,2026-06,Accepted Chargeback Sum,3489.13
+Vandelay Industries,2026-06,Effective Fraud Cnt,108
+Vandelay Industries,2026-06,Effective Fraud Sum,137789.4437

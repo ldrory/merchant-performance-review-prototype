@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+.idea/
+.env
+data/processed/
+data/output/
+*.md
+KPI List from Riskified.xlsx

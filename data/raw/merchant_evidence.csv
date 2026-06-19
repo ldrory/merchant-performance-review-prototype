@@ -1,0 +1,11 @@
+Merchant Name,Month,Event
+ACME,2026-01,High Fraud
+ACME,2026-02,Low Volume
+ACME,2025-12,Peak Season
+Cyberdyne Systems,2025-08,Low Volume
+Cyberdyne Systems,2025-10,High Fraud
+Cyberdyne Systems,2026-05,Chargeback Spike
+Cyberdyne Systems,2026-03,High Fraud
+Vandelay Industries,2025-08,Strong Growth
+Vandelay Industries,2025-11,High Fraud
+Vandelay Industries,2026-05,Low Volume

@@ -1,0 +1,39 @@
+# Docker Compose for the Riskified prototype.
+#
+#   docker compose run --rm ingest                 # 1. build the DuckDB facts
+#   docker compose run --rm decks                  # 2. generate decks (needs ANTHROPIC_API_KEY)
+#   docker compose up app                          # 3. agent UI -> http://localhost:8501
+#   docker compose run --rm tests                  # run the test suite
+#
+# ./data is mounted so inputs come from the host and outputs (riskified.duckdb, decks)
+# persist on the host after the container exits. Local Makefile is the primary path;
+# Docker is an optional convenience. Set ANTHROPIC_API_KEY in your shell or a .env file.
+
+x-app: &app-base
+  build: .
+  image: riskified-prototype
+  environment:
+    RATE_MISMATCH_TOLERANCE: ${RATE_MISMATCH_TOLERANCE:-0.02}
+    LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+    LLM_MODEL: ${LLM_MODEL:-claude-sonnet-4-6}
+    ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+  volumes:
+    - ./data:/app/data
+
+services:
+  ingest:
+    <<: *app-base
+
+  decks:
+    <<: *app-base
+    command: python scripts/generate_decks.py
+
+  app:
+    <<: *app-base
+    command: streamlit run src/app/streamlit_app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+
+  tests:
+    <<: *app-base
+    command: pytest -q

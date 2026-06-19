@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/processed/*.duckdb
+data/output/decks/*
+data/output/charts/*
+!data/output/**/.gitkeep
+.idea/
+.DS_Store

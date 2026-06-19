@@ -1,0 +1,21 @@
+{
+  "stage": "decks",
+  "version": "20260618T124946Z",
+  "generated_at": "2026-06-18T12:50:36Z",
+  "overall_status": "PASS",
+  "layers": [
+    {
+      "layer": 4,
+      "name": "Narrative Evaluation",
+      "type": "gate",
+      "blocking": true,
+      "status": "PASS",
+      "summary": "3/3 deck(s) passed",
+      "details": [
+        "acme: PASS",
+        "cyberdyne-systems: PASS",
+        "vandelay-industries: PASS"
+      ]
+    }
+  ]
+}
