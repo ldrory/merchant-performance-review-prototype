@@ -10,3 +10,7 @@ data/output/charts/*
 !data/output/**/.gitkeep
 .idea/
 .DS_Store
+
+# raw media sources (processed versions are committed under docs/images/)
+*.mov
+rd-presantation-screenshot-example.png

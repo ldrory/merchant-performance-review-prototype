@@ -83,6 +83,10 @@ amount-weighted views; Enterprise merchants show count only.
 📂 **Three ready-made sample decks live in [`deliverables/`](deliverables/)** — open them, no
 setup required. Regenerate fresh ones with `make decks`.
 
+<img src="docs/images/deck-screenshot.png" width="760" alt="Generated ACME deck open in PowerPoint"/>
+
+_The generated ACME deck open in PowerPoint — branded title slide + a slide per KPI._
+
 ### 3️⃣ Conversational agent 💬
 
 A merchant-scoped Q&A agent over the same data. It explains KPI values, trends, calculations,
@@ -98,7 +102,9 @@ construction 🔒).
 🤖  I can only help with ACME — I don't have access to other merchants' data.
 ```
 
-> 🎥 **Demo video:** _add your screen recording here_ → `docs/images/agent-demo.gif`
+🎥 **See it in action** (3× speed):
+
+<img src="docs/images/agent-demo.gif" width="760" alt="Agent demo — ACME asks about its KPIs and the agent stays scoped to ACME"/>
 
 ---
 
