@@ -15,14 +15,4 @@ a short written analysis) **→ Notes & Methodology**, all sharing one theme.
 
 ## Regenerating
 
-These are not hand-made — they are produced by the pipeline and can be regenerated any time:
-
-```bash
-make ingest    # build the DuckDB facts (no API key)
-make decks     # generate fresh decks under data/output/ (needs ANTHROPIC_API_KEY)
-make deliverables   # copy each merchant's latest deck here with a friendly name
-```
-
-Fresh, versioned outputs land under `data/output/decks/<merchant>/<merchant>_<version>.pptx`
-(gitignored — one UTC version per run, full history kept). This folder holds a clean, committed
-snapshot for review.
+These are not hand-made — they are produced by the pipeline and can be regenerated any time.
