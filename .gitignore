@@ -7,6 +7,7 @@ __pycache__/
 data/processed/*.duckdb
 data/output/decks/*
 data/output/charts/*
+data/output/quality/*
 !data/output/**/.gitkeep
 .idea/
 .DS_Store
