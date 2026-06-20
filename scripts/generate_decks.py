@@ -78,7 +78,7 @@ def main() -> int:
         try:
             path = generate_deck_for_merchant(repo, mid, model=model, version=version)
             results.append(NarrativeResult(merchant_id=mid, ok=True))
-            print(f"  ✓ {mid} → {path}")
+            print(f"  ✓ {mid} → {path.relative_to(settings.PROJECT_ROOT)}")
         except NarrativeEvalError as e:  # quality gate failed -> deck not written
             results.append(NarrativeResult(merchant_id=mid, ok=False, reason=str(e)))
             print(f"  ✗ {mid}: {e}")
@@ -96,8 +96,8 @@ def main() -> int:
     consolidated = consolidated_summary(version, _load_ingest_quality(), deck)
     quality_path(version).write_text(consolidated.model_dump_json(indent=2))
 
-    print(f"\nDecks: {settings.OUTPUT_DIR / 'decks'}/<merchant>/<merchant>_{version}.pptx")
-    print(f"Quality: {quality_path(version)}  [overall: {consolidated.overall_status}]")
+    print(f"\nDecks: {(settings.OUTPUT_DIR / 'decks').relative_to(settings.PROJECT_ROOT)}/<merchant>/<merchant>_{version}.pptx")
+    print(f"Quality: {quality_path(version).relative_to(settings.PROJECT_ROOT)}  [overall: {consolidated.overall_status}]")
     return 1 if consolidated.overall_status == "FAIL" else 0
 
 

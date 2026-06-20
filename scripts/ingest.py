@@ -54,7 +54,7 @@ def main() -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(result.quality.model_dump_json(indent=2))
 
-    print(f"\nQuality (ingest) [overall: {result.quality.overall_status}] → {out}")
+    print(f"\nQuality (ingest) [overall: {result.quality.overall_status}] → {out.relative_to(settings.PROJECT_ROOT)}")
     for layer in result.quality.layers:
         print(f"  L{layer.layer} {layer.name}: {layer.status} — {layer.summary}")
         for d in layer.details:
@@ -64,7 +64,7 @@ def main() -> int:
         print("\nABORTED: cannot ingest (see Layer issues above). No facts written.")
         return 1
 
-    print(f"\nIngested into {settings.DUCKDB_PATH}")
+    print(f"\nIngested into {settings.DUCKDB_PATH.relative_to(settings.PROJECT_ROOT)}")
     print(f"  merchants:           {result.merchant_count}")
     print(f"  kpi_measures:        {result.measure_count} rows")
     print(f"  kpi_facts_monthly:   {result.monthly_rows} rows")
