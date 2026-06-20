@@ -111,8 +111,12 @@ LLM only narrates), and Layer 4 is the safety net that catches any narration dri
 ## 6. Production: scalability & safety
 
 **Scale (target 200–300 merchants/run).**
-- Generation is sequential here; it parallelizes trivially (per-merchant decks are independent)
-  with a worker pool + bounded LLM concurrency/retries.
+- Generation is **deliberately sequential** for this assignment: per-merchant decks are
+  independent, so it works correctly at 300 (one bad merchant is isolated, not fatal) — we
+  simply trade run *time* for *simplicity*. At ~7–10s/merchant (LLM-dominated) a 300-merchant
+  run takes tens of minutes rather than a few. It parallelizes trivially when needed (a worker
+  pool + bounded LLM concurrency/retries) without touching the metric or isolation layers; we
+  chose not to add that machinery here to keep the prototype simple and easy to reason about.
 - DuckDB is the embedded prototype store; the same table-first model maps directly onto a
   warehouse (Postgres/Snowflake/BigQuery). The repository is the only thing that changes.
 - Charts/decks are versioned per run and never overwrite, so runs are reproducible and
@@ -143,6 +147,7 @@ LLM only narrates), and Layer 4 is the safety net that catches any narration dri
 | **Scoped tools + full-dataset tool** for the agent | Tiny per-merchant data (~96 rows) → hand the model the whole *scoped* table; flexible answers, isolation intact | Not an LLM-to-SQL agent (more flexible, but moves the security boundary into the model). |
 | **Deterministic narrative eval** | Cheap, reliable, no network in CI; catches hallucinated numbers | Doesn't judge subjective quality — LLM-as-judge + human approval is the prod step. |
 | **LLM never does arithmetic** | Removes the biggest correctness risk | More plumbing (precompute everything) but numbers are trustworthy. |
+| **Sequential deck generation** | Simple and easy to reason about; correct at 300 merchants | Trades time for simplicity (tens of minutes at 300). Parallel workers + bounded LLM concurrency is the trivial prod upgrade. |
 | **No LangGraph / vector DB / SQL agent** | Scope is small and well-defined; a manual tool loop is simpler to reason about and test | Less "framework", but far less hidden behaviour. |
 | **Pydantic for contracts only** | Validate definitions/reports/deck model, not every row | Row data stays as DataFrames (fast, pandas-native). |
 | **Merchant-facing vs internal language split** | The agent is customer-facing per the brief | Two phrasings of the same facts; internal detail kept in artifacts. |
