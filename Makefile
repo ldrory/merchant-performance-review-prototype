@@ -21,8 +21,8 @@ setup:                ## create venv + install dependencies
 	python3 -m venv .venv
 	$(PIP) install -r requirements.txt
 
-ingest:               ## load + validate + compute facts -> data/processed/riskified.duckdb
-	$(PY) scripts/ingest.py
+ingest:               ## load + validate + compute facts -> data/processed/riskified.duckdb (ARGS="--input-merchant-profiles=... ")
+	$(PY) scripts/ingest.py $(ARGS)
 
 decks:                ## generate a deck for every merchant -> data/output/decks/
 	$(PY) scripts/generate_decks.py

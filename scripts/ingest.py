@@ -2,6 +2,8 @@
 
 Usage:
     python scripts/ingest.py
+    python scripts/ingest.py --input-merchant-profiles path/to/profiles.csv \\
+        --input-merchant-kpis path/to/kpis.csv --input-merchant-evidence path/to/evidence.csv
 
 Table-first: source tables (merchants, kpi_measures, evidence) are persisted for the valid
 merchants, then facts are computed from them. Input validation is a gate — a merchant with
@@ -10,6 +12,7 @@ Metric-quality (provided-vs-computed) is reported as a non-blocking warning.
 """
 from __future__ import annotations
 
+import argparse
 import sys
 from pathlib import Path
 
@@ -24,10 +27,26 @@ from src.presentation.versioning import ingest_quality_path  # noqa: E402
 
 
 def main() -> int:
-    kpis, profiles, evidence = read_kpis(), read_profiles(), read_evidence()
+    parser = argparse.ArgumentParser(description="Ingest merchant CSVs into curated DuckDB tables.")
+    parser.add_argument("--input-merchant-profiles", default=settings.PROFILES_CSV,
+                        help=f"path to the merchant profiles CSV (default: {settings.PROFILES_CSV})")
+    parser.add_argument("--input-merchant-kpis", default=settings.KPIS_CSV,
+                        help=f"path to the merchant KPIs CSV (default: {settings.KPIS_CSV})")
+    parser.add_argument("--input-merchant-evidence", default=settings.EVIDENCE_CSV,
+                        help=f"path to the merchant evidence CSV (default: {settings.EVIDENCE_CSV})")
+    args = parser.parse_args()
+
+    kpis = read_kpis(args.input_merchant_kpis)
+    profiles = read_profiles(args.input_merchant_profiles)
+    evidence = read_evidence(args.input_merchant_evidence)
 
     con = get_connection()
-    result = run_pipeline(con, kpis, profiles, evidence)
+    result = run_pipeline(
+        con, kpis, profiles, evidence,
+        kpis_path=args.input_merchant_kpis,
+        profiles_path=args.input_merchant_profiles,
+        evidence_path=args.input_merchant_evidence,
+    )
     con.close()
 
     # Write the ingest-owned quality summary (Layers 1-3) — even when ingest fails.

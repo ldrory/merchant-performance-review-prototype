@@ -22,6 +22,35 @@ git clone https://github.com/ldrory/riskified-hw.git && cd riskified-hw
 cp .env.example .env          # then edit .env →  ANTHROPIC_API_KEY=sk-ant-...
 ```
 
+**input files:**, put your 3 input CSV files into the `data/raw/` folder
+(inside this project), using these exact names:
+
+- `data/raw/merchant_profiles.csv`
+- `data/raw/merchant_kpis.csv`
+- `data/raw/merchant_evidence.csv`
+
+Once that's done, the results will always appear in these two folders (inside this
+project) after each run:
+
+- `data/processed/riskified.duckdb` — the database
+- `data/output/decks/<merchant>/` — the generated decks
+
+You can open these normally, with your file browser or terminal — no Docker or Python
+knowledge needed to find them.
+
+> 💡 Prefer different filenames or a different folder for your CSVs? Pass all 3 paths in
+> instead of renaming/moving anything (any subset can be overridden — the rest fall back
+> to the default names above):
+> - Local: `make ingest ARGS="--input-merchant-profiles=/path/profiles.csv --input-merchant-kpis=/path/kpis.csv --input-merchant-evidence=/path/evidence.csv"`
+> - Docker: same 3 flags, but each path must be under `./data` on your machine (e.g.
+>   `/app/data/raw/...`), since that's the only folder the container can see:
+>   ```bash
+>   docker compose run --rm ingest python scripts/ingest.py \
+>     --input-merchant-profiles=/app/data/raw/custom_profiles.csv \
+>     --input-merchant-kpis=/app/data/raw/custom_kpis.csv \
+>     --input-merchant-evidence=/app/data/raw/custom_evidence.csv
+>   ```
+
 ### 🐳 Option A — Docker (most reproducible, nothing to install but Docker)
 
 ```bash
@@ -30,13 +59,6 @@ docker compose run --rm decks    # 2️⃣ generate a deck per merchant
 docker compose up app            # 3️⃣ chat agent  →  http://localhost:8501
 docker compose run --rm tests    # (optional) run the full test suite
 ```
-
-> 📂 The `./data` folder on your computer (in this project) is shared with the container.
-> Put your CSVs in `data/raw/`, using these exact filenames:
-> `merchant_profiles.csv`, `merchant_kpis.csv`, `merchant_evidence.csv`.
-> Then after each command above, find the results in:
-> `data/processed/riskified.duckdb` (the database) and `data/output/decks/<merchant>/`
-> (the decks). Open these with a normal file browser or terminal — no Docker needed.
 
 ### 🐍 Option B — Local Python (no Docker; needs Python 3.11)
 
