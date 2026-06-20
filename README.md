@@ -12,28 +12,34 @@ is computed and tested in Python; the LLM only narrates. ✅
 
 ---
 
-## 🚀 Quickstart
+## 🚀 Quickstart — two ways to run
 
-**You need:** Python 3.11 🐍 and an Anthropic API key 🔑 (for steps 2 & 3 — step 1 needs none).
+Pick whichever you already have. **Step 1 needs no key**; steps 2 & 3 need an Anthropic API
+key 🔑. First, add it once:
 
 ```bash
-# 1. Get the code
 git clone https://github.com/ldrory/riskified-hw.git && cd riskified-hw
-
-# 2. Install
-make setup                       # creates .venv + installs deps
-
-# 3. Add your API key
-cp .env.example .env             # then edit .env →  ANTHROPIC_API_KEY=sk-ant-...
-
-# 4. Run the three steps
-make ingest                      # 1️⃣ build the DuckDB dataset   (no key needed)
-make decks                       # 2️⃣ generate a deck per merchant
-make app                         # 3️⃣ open the chat agent  →  http://localhost:8501
+cp .env.example .env          # then edit .env →  ANTHROPIC_API_KEY=sk-ant-...
 ```
 
-That's it. 🎉 `make test` runs the full suite (no network needed). `make chat m=acme` gives a
-terminal chat instead of the web UI.
+### 🐳 Option A — Docker (most reproducible, nothing to install but Docker)
+
+```bash
+docker compose run --rm ingest   # 1️⃣ build the DuckDB dataset   (no key needed)
+docker compose run --rm decks    # 2️⃣ generate a deck per merchant
+docker compose up app            # 3️⃣ chat agent  →  http://localhost:8501
+docker compose run --rm tests    # (optional) run the full test suite
+```
+
+### 🐍 Option B — Local Python (no Docker; needs Python 3.11)
+
+```bash
+make setup     # create .venv + install pinned deps   (Windows: see below)
+make ingest    # 1️⃣ build the DuckDB dataset          (no key needed)
+make decks     # 2️⃣ generate a deck per merchant
+make app       # 3️⃣ chat agent  →  http://localhost:8501
+make test      # (optional) full test suite ·  make chat m=acme  for a terminal chat
+```
 
 <details><summary>🪟 No <code>make</code> / on Windows?</summary>
 
@@ -45,6 +51,9 @@ python scripts/generate_decks.py
 python scripts/run_app.py
 ```
 </details>
+
+> 📌 Dependencies are **pinned** (`requirements.txt`) and Docker uses **Python 3.11** — so both
+> paths run the exact versions this was built and tested with.
 
 ---
 
