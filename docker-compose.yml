@@ -1,9 +1,9 @@
 # Docker Compose for the Riskified prototype.
 #
-#   docker compose run --rm ingest                 # 1. build the DuckDB facts
-#   docker compose run --rm decks                  # 2. generate decks (needs ANTHROPIC_API_KEY)
-#   docker compose up app                          # 3. agent UI -> http://localhost:8501
-#   docker compose run --rm tests                  # run the test suite
+#   docker compose run --rm create-decks-from-files   # ingest + build every deck (needs ANTHROPIC_API_KEY)
+#   docker compose up app                             # agent UI -> http://localhost:8501
+#   docker compose run --rm tests                     # run the test suite
+#   (ingest / decks are also available as standalone services)
 #
 # ./data is mounted so inputs come from the host and outputs (riskified.duckdb, decks)
 # persist on the host after the container exits. Local Makefile is the primary path;
@@ -27,6 +27,12 @@ services:
   decks:
     <<: *app-base
     command: python scripts/generate_decks.py
+
+  # Ingest + build every deck in one step. Custom input paths via a host ARGS env var:
+  #   ARGS="--input-merchant-profiles=/app/data/raw/foo.csv ..." docker compose run --rm create-decks-from-files
+  create-decks-from-files:
+    <<: *app-base
+    command: sh -c "python scripts/ingest.py ${ARGS:-} && python scripts/generate_decks.py"
 
   app:
     <<: *app-base

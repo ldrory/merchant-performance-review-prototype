@@ -12,10 +12,10 @@ PY := .venv/bin/python
 PIP := .venv/bin/pip
 m ?= acme   # default merchant for `make chat` / `make decks-one`
 
-.PHONY: setup ingest decks decks-one deliverables chat app test submit-check all clean help
+.PHONY: setup ingest decks create-decks-from-files decks-one deliverables chat app test submit-check all clean help
 
 help:
-	@echo "Targets: setup | ingest | decks | decks-one m=<id> | deliverables | chat m=<id> | app | test | submit-check | all | clean"
+	@echo "Targets: setup | ingest | decks | create-decks-from-files | decks-one m=<id> | deliverables | chat m=<id> | app | test | submit-check | all | clean"
 
 setup:                ## create venv + install dependencies
 	python3 -m venv .venv
@@ -26,6 +26,8 @@ ingest:               ## load + validate + compute facts -> data/processed/riski
 
 decks:                ## generate a deck for every merchant -> data/output/decks/
 	$(PY) scripts/generate_decks.py
+
+create-decks-from-files: ingest decks  ## ingest + generate every deck in one step (ARGS="--input-merchant-profiles=... " for custom inputs)
 
 decks-one:            ## generate a deck for one merchant: make decks-one m=acme
 	$(PY) scripts/generate_decks.py --merchant $(m)
