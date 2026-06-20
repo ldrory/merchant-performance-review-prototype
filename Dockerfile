@@ -1,6 +1,6 @@
 # Riskified performance-review prototype.
-# Installs the full project dependencies so the image is ready for all phases
-# (Phase 1 ingestion now; Phase 2 decks / Phase 3 Streamlit agent later).
+# One image runs the whole pipeline: ingestion, deck generation, the Streamlit agent, and tests
+# (each docker-compose service overrides the command).
 FROM python:3.11-slim
 
 ENV PYTHONUNBUFFERED=1 \
@@ -18,7 +18,8 @@ COPY src/ ./src/
 COPY scripts/ ./scripts/
 COPY tests/ ./tests/
 COPY data/raw/ ./data/raw/
-# Branding: PNG logo embedded in decks + assets/streamlit logo for the agent UI.
+# Branding: assets/riskified_logo.png is embedded in the PPTX decks (python-pptx can't read
+# webp); the root .webp + .streamlit theme are used by the Streamlit agent UI.
 COPY assets/ ./assets/
 COPY .streamlit/ ./.streamlit/
 COPY ["Riskified Logo.webp", "./"]
