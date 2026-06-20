@@ -183,3 +183,17 @@ and the agent, so they can never disagree. → Full detail in
 (proven in tests). ✔️ **Validation:** a gate excludes bad merchants and aborts on global
 errors, so one bad row never breaks a 200–300-merchant batch. Details in
 [docs/architecture.md](docs/architecture.md).
+
+---
+
+## 📜 License — All Rights Reserved
+
+**Copyright © 2026 Liran Drory. All rights reserved.**
+
+This repository is **proprietary** and is published **for portfolio / evaluation viewing only**.
+No license is granted. You may **not** use, copy, modify, merge, publish, distribute, sublicense,
+or sell any part of this code or its contents — in whole or in part — without the prior written
+permission of the copyright holder. Viewing the source for assessment purposes does **not** grant
+any rights to reuse it.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
