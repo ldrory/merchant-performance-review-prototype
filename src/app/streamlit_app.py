@@ -21,7 +21,7 @@ from src.db.connection import get_connection  # noqa: E402
 from src.llm.client import get_chat_model  # noqa: E402
 from src.repositories.metrics_repository import MetricsRepository  # noqa: E402
 
-LOGO = PROJECT_ROOT / "Riskified Logo.webp"
+LOGO = PROJECT_ROOT / "assets" / "riskified_logo.png"  # one logo asset, shared with the decks
 _logo = str(LOGO) if LOGO.exists() else None
 
 st.set_page_config(page_title="Riskified — Merchant Performance Agent", page_icon=_logo or "📊")

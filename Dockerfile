@@ -18,11 +18,10 @@ COPY src/ ./src/
 COPY scripts/ ./scripts/
 COPY tests/ ./tests/
 COPY data/raw/ ./data/raw/
-# Branding: assets/riskified_logo.png is embedded in the PPTX decks (python-pptx can't read
-# webp); the root .webp + .streamlit theme are used by the Streamlit agent UI.
+# Branding: assets/riskified_logo.png is the single logo — embedded in the PPTX decks and shown
+# in the Streamlit UI. .streamlit holds the brand theme.
 COPY assets/ ./assets/
 COPY .streamlit/ ./.streamlit/
-COPY ["Riskified Logo.webp", "./"]
 
 # Default: run the ingestion pipeline. Override per docker-compose service.
 CMD ["python", "scripts/ingest.py"]

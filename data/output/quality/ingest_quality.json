@@ -1,7 +1,7 @@
 {
   "stage": "ingest",
-  "version": "20260617T125651Z",
-  "generated_at": "2026-06-17T12:56:51Z",
+  "version": "20260620T094338Z",
+  "generated_at": "2026-06-20T09:43:38Z",
   "overall_status": "WARN",
   "layers": [
     {
