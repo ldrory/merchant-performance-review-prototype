@@ -22,7 +22,7 @@ considerations, and the key trade-offs. Deep detail lives in
   the single most important correctness decision — it removes the largest hallucination risk.
 - **Two consumers, one curated layer.** Decks and the agent both read through one
   merchant-scoped repository, so they can never disagree on the numbers or widen data scope.
-- **Built phase-by-phase, TDD throughout.** 142 tests, no network needed (the LLM is injected
+- **Built phase-by-phase, TDD throughout.** 162 tests, no network needed (the LLM is injected
   and faked in tests).
 
 ---
