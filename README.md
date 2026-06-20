@@ -38,8 +38,8 @@ question examples:
 ## 🚀 Quickstart
 
 ```bash
-git clone https://github.com/ldrory/riskified-hw.git
-cd riskified-hw
+git clone https://github.com/ldrory/merchant-performance-review-prototype.git
+cd merchant-performance-review-prototype
 cp .env.example .env
 ```
 must: Add your model API key to .env.

@@ -190,7 +190,7 @@ def test_enterprise_deck_has_no_amount_cards(tmp_path):
     assert "Submitted value" not in text
 
 
-def test_deck_embeds_riskified_logo(tmp_path):
+def test_deck_embeds_logo(tmp_path):
     # The real logo (PNG asset) is embedded as a picture on the title slide.
     from pptx import Presentation
     from pptx.enum.shapes import MSO_SHAPE_TYPE

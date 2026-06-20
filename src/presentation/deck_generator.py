@@ -28,7 +28,7 @@ from src.presentation.deck_schema import (
 
 _SLIDE_W = Inches(13.333)
 _SLIDE_H = Inches(7.5)
-_LOGO = settings.PROJECT_ROOT / "assets" / "riskified_logo.png"  # transparent-bg wordmark
+_LOGO = settings.PROJECT_ROOT / "assets" / "logo.png"  # transparent-bg wordmark
 
 
 def _add_logo(slide, *, left, top, height) -> None:
