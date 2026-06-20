@@ -31,6 +31,13 @@ docker compose up app            # 3️⃣ chat agent  →  http://localhost:850
 docker compose run --rm tests    # (optional) run the full test suite
 ```
 
+> 📂 The `./data` folder on your computer (in this project) is shared with the container.
+> Put your CSVs in `data/raw/`, using these exact filenames:
+> `merchant_profiles.csv`, `merchant_kpis.csv`, `merchant_evidence.csv`.
+> Then after each command above, find the results in:
+> `data/processed/riskified.duckdb` (the database) and `data/output/decks/<merchant>/`
+> (the decks). Open these with a normal file browser or terminal — no Docker needed.
+
 ### 🐍 Option B — Local Python (no Docker; needs Python 3.11)
 
 ```bash
