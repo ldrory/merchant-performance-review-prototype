@@ -19,11 +19,9 @@ generated per merchant. ([source for this clip: `demo/`](demo/) · [MP4](docs/im
 
 <img src="docs/images/product-demo.gif" width="760" alt="Running 'make decks' then flipping through the generated ACME performance-review deck"/>
 
+_`make decks` → a branded ACME deck: title, executive summary, and a slide per KPI._
+
 📂 **Ready-made sample decks live in [`deliverables/`](deliverables/)** — open them, no setup required.
-
-<img src="docs/images/deck-screenshot.png" width="760" alt="Generated ACME deck open in PowerPoint"/>
-
-_The generated ACME deck open in PowerPoint — branded title slide + a slide per KPI._
 
 🎥 **Chat agent demo:**
 
