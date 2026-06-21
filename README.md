@@ -108,10 +108,9 @@ Quality/evaluation artifacts are written under:
 ### 1️⃣ Data ingestion → DuckDB 🦆
 
 CSVs are loaded, **validated** (schema, ranges, duplicates, zero denominators, evidence
-sanity), normalized, and persisted as **5 curated tables**. The database is the single source
-of truth — both the decks and the agent read from it.
-
-<img src="docs/images/database.png" width="720" alt="DuckDB curated tables"/>
+sanity), normalized, and persisted as **5 curated tables** (all keyed by `merchant_id`). The
+database is the single source of truth — both the decks and the agent read from it. See the
+table-by-table ERD in **[docs/architecture.md](docs/architecture.md#curated-tables-erd)**.
 
 > 🔍 Peek inside any time: `duckdb -ui data/processed/riskified.duckdb`
 

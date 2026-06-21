@@ -13,11 +13,32 @@ facts) → MetricsRepository (merchant-scoped) → decks + agent`
 The DB is the source of truth: the engine computes *on top of* the persisted tables, not from
 in-memory state.
 
-## Curated tables
+## Curated tables (ERD)
 
-![Tables](images/database.png)
+Five tables, all keyed by **`merchant_id`** — the deterministic slug that is also the
+tenant-isolation key. Three **source** tables hold the validated inputs; two **fact** tables hold
+the computed KPIs (derived from `kpi_measures` + `merchants`).
 
-Every table carries lineage: `source_file`, `source_sha256`, `loaded_at`.
+```
+merchants (1) ──< kpi_measures
+          (1) ──< evidence
+          (1) ──< kpi_facts_monthly ──rollup──> kpi_facts_quarterly
+```
+
+| Table | Grain | Key / identifying columns | Purpose |
+|---|---|---|---|
+| `merchants` | one row per merchant | `merchant_id` (PK), `merchant_name`, `pre_or_post`, `business_structure` | Profile dimension; drives metric shape (Pre/Post stage, Strategic vs Enterprise variants). |
+| `kpi_measures` | merchant × month × KPI | `merchant_id`, `period` (YYYY-MM), `kpi_name`, `value` | Tidy raw measures — the metric engine's input, read back from DuckDB. |
+| `evidence` | merchant × month × event | `merchant_id`, `period`, `event` | Notable events (e.g. *High Fraud*) annotated on charts and surfaced by the agent. |
+| `kpi_facts_monthly` | merchant × month × metric × variant | `merchant_id`, `period`, `metric_id`, `variant` (cnt/sum) | Computed monthly KPI facts: the displayed `value` + the provided-vs-computed cross-check. |
+| `kpi_facts_quarterly` | merchant × quarter × metric × variant | `merchant_id`, `quarter`, `metric_id`, `variant` | Volume-weighted quarterly rollups (same columns as the monthly fact table). |
+
+**Relationships:** `merchants.merchant_id` is 1—* to every other table, and *every* read is filtered
+by it (the isolation boundary). The fact tables additionally carry the reconciliation columns
+`value_source` (additive | provided | computed), `provided_value`, `computed_value`, `numerator`,
+`denominator`, `abs_diff`, `rel_diff_pct`, `validation_status` — kept for the quality layer and
+**never shown to merchants**. Every table also carries lineage: `source_file`, `source_sha256`,
+`loaded_at`.
 
 ## Metric rules (profile-driven)
 
