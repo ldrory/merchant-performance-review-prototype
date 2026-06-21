@@ -45,9 +45,9 @@ git clone https://github.com/ldrory/merchant-performance-review-prototype.git
 cd merchant-performance-review-prototype
 cp .env.example .env
 ```
-must: Add your model API key to .env.
+*must* Add your model API key to .env.
 
-Default input files are expected at:
+*Input files* are *expected* at with these *specific file names*:
 ```bash 
 data/raw/merchant_profiles.csv 
 data/raw/merchant_evidence.csv
@@ -60,7 +60,7 @@ Decks output under:
 ### 🐳 Option A - Using Docker (prerequisite: install Docker)
 
 ```bash
-docker compose run --rm create-decks-from-files   # ingest + build every deck
+docker compose run --rm create-decks-from-files   # ingest + build every deck ( input files are expected to be at data/raw/<merchant_[kpis/evidence/profiles]>.csv ) 
 docker compose up app                             # chat agent → http://localhost:8501
 ```
 
