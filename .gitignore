@@ -15,3 +15,6 @@ data/output/quality/*
 # raw media sources (processed versions are committed under docs/images/)
 *.mov
 rd-presantation-screenshot-example.png
+
+# Remotion demo project — local only; the rendered clip is committed under docs/images/
+demo/

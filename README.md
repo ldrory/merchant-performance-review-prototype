@@ -15,7 +15,7 @@ is computed and tested in Python; the LLM only narrates. ✅
 ## 👀 Preview
 
 🎬 **One command → a finished deck:** run `make decks` and a branded performance-review deck is
-generated per merchant. ([source for this clip: `demo/`](demo/) · [MP4](docs/images/product-demo.mp4))
+generated per merchant. ([watch the MP4](docs/images/product-demo.mp4))
 
 <img src="docs/images/product-demo.gif" width="760" alt="Running 'make decks' then flipping through the generated ACME performance-review deck"/>
 
